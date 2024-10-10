@@ -230,6 +230,6 @@ class __TwigTemplate_39752f94c583a3378dd1a71f0fbbcc91 extends Template
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\base.html.twig");
+", "base.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\base.html.twig");
     }
 }

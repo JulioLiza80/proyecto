@@ -149,6 +149,6 @@ class __TwigTemplate_599f2964d17de9b312940f8bfc578fc5 extends Template
 
     <a href=\"{{ path('app_gafas_index') }}\">back to list</a>
 {% endblock %}
-", "gafas/new.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\gafas\\new.html.twig");
+", "gafas/new.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\gafas\\new.html.twig");
     }
 }

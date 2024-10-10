@@ -149,6 +149,6 @@ class __TwigTemplate_9c9f380b1d1876e020a7b8f2cbc5d341 extends Template
 
     <a href=\"{{ path('app_detalle_compra_index') }}\">back to list</a>
 {% endblock %}
-", "detalle_compra/new.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\detalle_compra\\new.html.twig");
+", "detalle_compra/new.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\detalle_compra\\new.html.twig");
     }
 }

@@ -422,6 +422,6 @@ class __TwigTemplate_c0f2d6edb81d6e6136c836fbf41a979f extends Template
 
     </div>
 {%- endif %}
-", "@WebProfiler/Profiler/_request_summary.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\_request_summary.html.twig");
+", "@WebProfiler/Profiler/_request_summary.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\_request_summary.html.twig");
     }
 }

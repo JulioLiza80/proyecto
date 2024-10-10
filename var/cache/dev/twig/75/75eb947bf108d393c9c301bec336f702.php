@@ -87,6 +87,6 @@ class __TwigTemplate_2b819a3f765cc8de2e2c43bcee8bfbcf extends Template
 {# @var field \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\FieldDto #}
 {# @var entity \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\EntityDto #}
 {{ field.formattedValue }}
-", "@EasyAdmin/crud/field/integer.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\integer.html.twig");
+", "@EasyAdmin/crud/field/integer.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\integer.html.twig");
     }
 }

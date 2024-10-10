@@ -149,6 +149,6 @@ class __TwigTemplate_f546a045523c9634d972f46d99569a32 extends Template
 
     <a href=\"{{ path('app_campanias_index') }}\">back to list</a>
 {% endblock %}
-", "campanias/new.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\campanias\\new.html.twig");
+", "campanias/new.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\campanias\\new.html.twig");
     }
 }

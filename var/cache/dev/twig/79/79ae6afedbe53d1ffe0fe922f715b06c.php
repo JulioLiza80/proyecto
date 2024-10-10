@@ -415,6 +415,6 @@ class __TwigTemplate_a2a38786b308f180bdf83d89a743eea6 extends Template
 
     {{ include('gafas/_delete_form.html.twig') }}
 {% endblock %}
-", "gafas/show.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\gafas\\show.html.twig");
+", "gafas/show.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\gafas\\show.html.twig");
     }
 }

@@ -134,6 +134,6 @@ class __TwigTemplate_2d58c8dd5a756c870cf1d5cb0d872152 extends Template
 
     {{ form_widget(filters_form) }}
 {{ form_end(filters_form) }}
-", "@EasyAdmin/crud/filters.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\filters.html.twig");
+", "@EasyAdmin/crud/filters.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\filters.html.twig");
     }
 }

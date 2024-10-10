@@ -90,6 +90,6 @@ class __TwigTemplate_6fba4c68d388912826646de86ebcd255 extends Template
         return new Source("{% if not (ea.crud.areNullValuesHidden ?? false) %}
     <span class=\"badge badge-outline\">{{ 'label.null'|trans(domain = 'EasyAdminBundle') }}</span>
 {% endif %}
-", "@EasyAdmin/label/null.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\label\\null.html.twig");
+", "@EasyAdmin/label/null.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\label\\null.html.twig");
     }
 }

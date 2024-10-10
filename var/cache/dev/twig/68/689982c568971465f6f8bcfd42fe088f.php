@@ -242,6 +242,6 @@ class __TwigTemplate_f702512086094474d2e6518614cc29b8 extends Template
 
     <a href=\"{{ path('app_pedidos_new') }}\">Create new</a>
 {% endblock %}
-", "pedidos/index.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\pedidos\\index.html.twig");
+", "pedidos/index.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\pedidos\\index.html.twig");
     }
 }

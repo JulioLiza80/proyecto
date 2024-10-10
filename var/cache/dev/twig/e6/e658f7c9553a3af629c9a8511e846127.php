@@ -109,6 +109,6 @@ class __TwigTemplate_1b5597f3f28414095f860e6046fba3a2 extends Template
 <p>
     Cheers!
 </p>
-", "registration/confirmation_email.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\registration\\confirmation_email.html.twig");
+", "registration/confirmation_email.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\registration\\confirmation_email.html.twig");
     }
 }

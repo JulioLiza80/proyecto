@@ -107,6 +107,6 @@ class __TwigTemplate_92cf534e10cb0c7a51bb53facd42fdfb extends Template
 {% else %}
     <a target=\"_blank\" rel=\"noopener\" href=\"{{ field.value }}\">{{ field.formattedValue }}</a>
 {% endif %}
-", "@EasyAdmin/crud/field/url.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\url.html.twig");
+", "@EasyAdmin/crud/field/url.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\url.html.twig");
     }
 }

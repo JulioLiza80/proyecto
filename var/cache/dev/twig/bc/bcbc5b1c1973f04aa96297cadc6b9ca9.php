@@ -149,6 +149,6 @@ class __TwigTemplate_8a5b0f7225c8f824c6163dbca6bc47ac extends Template
 
     <a href=\"{{ path('app_user_index') }}\">back to list</a>
 {% endblock %}
-", "user/new.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\user\\new.html.twig");
+", "user/new.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\user\\new.html.twig");
     }
 }

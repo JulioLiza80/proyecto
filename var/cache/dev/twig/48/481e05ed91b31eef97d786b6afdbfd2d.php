@@ -2466,6 +2466,6 @@ $context["attrvalue"] === false)) {
         {%- endif -%}
     {%- endfor -%}
 {%- endblock attributes -%}
-", "@EasyAdmin/symfony-form-themes/form_div_layout.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\symfony-form-themes\\form_div_layout.html.twig");
+", "@EasyAdmin/symfony-form-themes/form_div_layout.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\symfony-form-themes\\form_div_layout.html.twig");
     }
 }

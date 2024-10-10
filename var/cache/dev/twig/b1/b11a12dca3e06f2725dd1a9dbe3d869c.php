@@ -149,6 +149,6 @@ class __TwigTemplate_fe777a75d006631cd24a5732183fb292 extends Template
 
     <a href=\"{{ path('app_detalle_pedido_index') }}\">back to list</a>
 {% endblock %}
-", "detalle_pedido/new.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\detalle_pedido\\new.html.twig");
+", "detalle_pedido/new.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\detalle_pedido\\new.html.twig");
     }
 }

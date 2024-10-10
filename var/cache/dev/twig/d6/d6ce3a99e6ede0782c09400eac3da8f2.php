@@ -134,6 +134,6 @@ class __TwigTemplate_2ac5de1808f97d7298f06b93b85db2fe extends Template
         </div>
     </div>
 </div>
-", "@EasyAdmin/crud/includes/_filters_modal.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\includes\\_filters_modal.html.twig");
+", "@EasyAdmin/crud/includes/_filters_modal.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\includes\\_filters_modal.html.twig");
     }
 }

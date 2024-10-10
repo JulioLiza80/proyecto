@@ -285,6 +285,6 @@ class __TwigTemplate_015a7da7e0b350950856eba31dc455b8 extends Template
 
     <a href=\"{{ path('app_user_new') }}\">Create new</a>
 {% endblock %}
-", "user/index.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\user\\index.html.twig");
+", "user/index.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\user\\index.html.twig");
     }
 }

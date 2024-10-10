@@ -174,6 +174,6 @@ class __TwigTemplate_2b288c2956bee7734c939626bb43143e extends Template
         </span>
     </button>
 {% endif %}
-", "@EasyAdmin/crud/action.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\action.html.twig");
+", "@EasyAdmin/crud/action.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\action.html.twig");
     }
 }

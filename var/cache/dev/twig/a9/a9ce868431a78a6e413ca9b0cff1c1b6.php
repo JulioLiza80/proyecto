@@ -1573,6 +1573,6 @@ array_key_exists("type", $context)) ? (Twig\Extension\CoreExtension::default((is
     {%- endif -%}
     {{- parent() -}}
 {%- endblock form_help %}
-", "@EasyAdmin/symfony-form-themes/bootstrap_5_layout.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\symfony-form-themes\\bootstrap_5_layout.html.twig");
+", "@EasyAdmin/symfony-form-themes/bootstrap_5_layout.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\symfony-form-themes\\bootstrap_5_layout.html.twig");
     }
 }

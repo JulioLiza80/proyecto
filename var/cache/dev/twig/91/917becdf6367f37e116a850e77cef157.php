@@ -149,6 +149,6 @@ class __TwigTemplate_290b386eb6e3828863e5c19e9f329ef7 extends Template
 
     <a href=\"{{ path('app_pedidos_index') }}\">back to list</a>
 {% endblock %}
-", "pedidos/new.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\pedidos\\new.html.twig");
+", "pedidos/new.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\pedidos\\new.html.twig");
     }
 }

@@ -90,6 +90,6 @@ class __TwigTemplate_a49ce19775b5ce409d6d88f5b3e762b4 extends Template
 {# @var field \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\FieldDto #}
 {# @var entity \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\EntityDto #}
 <a href=\"tel:{{ field.value }}\">{{ field.formattedValue }}</a>
-", "@EasyAdmin/crud/field/telephone.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\telephone.html.twig");
+", "@EasyAdmin/crud/field/telephone.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\telephone.html.twig");
     }
 }

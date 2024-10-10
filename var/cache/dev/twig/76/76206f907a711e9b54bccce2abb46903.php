@@ -94,6 +94,6 @@ class __TwigTemplate_8076b39943f44bd91d47ee015ab86b51 extends Template
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ lentilla.id) }}\">
     <button class=\"btn\">Delete</button>
 </form>
-", "lentillas/_delete_form.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\lentillas\\_delete_form.html.twig");
+", "lentillas/_delete_form.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\lentillas\\_delete_form.html.twig");
     }
 }

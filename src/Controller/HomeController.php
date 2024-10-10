@@ -22,7 +22,7 @@ class HomeController extends AbstractController
         $gafas= $entityGafas->getRepository(Gafas::class)->findAll();
         $lentillas= $entityLentillas->getRepository(Lentillas::class)->findAll();
         
-       // dd($publicidad,$gafas,$lentillas);
+        //dd($publicidad,$gafas,$lentillas);
         return $this->render('index.html.twig', [
             'controller_name' => 'Incio',
             'publicidad' => $publicidad,

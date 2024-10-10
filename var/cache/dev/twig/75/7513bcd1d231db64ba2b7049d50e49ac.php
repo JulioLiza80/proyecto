@@ -154,6 +154,6 @@ class __TwigTemplate_db45b5ce264d303c23333931cf2e2c61 extends Template
         </div>
     </div>
 {% endif %}
-", "@EasyAdmin/crud/field/text_editor.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\text_editor.html.twig");
+", "@EasyAdmin/crud/field/text_editor.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\text_editor.html.twig");
     }
 }

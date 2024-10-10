@@ -143,6 +143,6 @@ class __TwigTemplate_d60ee05576a3a89aa5fd7fd5c2853f79 extends Template
         </div>
     </div>
 </div>
-", "@EasyAdmin/crud/includes/_delete_form.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\includes\\_delete_form.html.twig");
+", "@EasyAdmin/crud/includes/_delete_form.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\includes\\_delete_form.html.twig");
     }
 }

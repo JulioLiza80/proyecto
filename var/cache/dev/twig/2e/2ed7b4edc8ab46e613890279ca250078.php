@@ -195,6 +195,6 @@ class __TwigTemplate_25237ff7f5aed5d32052dfb73a9fa79d extends Template
         <button type=\"submit\" class=\"btn\">Register</button>
     {{ form_end(registrationForm) }}
 {% endblock %}
-", "registration/register.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\registration\\register.html.twig");
+", "registration/register.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\registration\\register.html.twig");
     }
 }

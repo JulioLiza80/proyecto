@@ -219,6 +219,6 @@ class __TwigTemplate_8b090e54f9800daf3d1b48232add0640 extends Template
         </button>
     </form>
 {% endblock %}
-", "login/login.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\login\\login.html.twig");
+", "login/login.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\login\\login.html.twig");
     }
 }
