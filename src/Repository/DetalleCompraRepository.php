@@ -40,4 +40,34 @@ class DetalleCompraRepository extends ServiceEntityRepository
     //            ->getOneOrNullResult()
     //        ;
     //    }
+
+    //AÑADIDO
+    public function save(DetalleCompra $entity, bool $flush = false): void
+    {
+        $this->getEntityManager()->persist($entity);
+
+        if ($flush) {
+            $this->getEntityManager()->flush();
+        }
+    }
+
+    public function remove(DetalleCompra $entity, bool $flush = false): void
+    {
+        $this->getEntityManager()->remove($entity);
+
+        if ($flush) {
+            $this->getEntityManager()->flush();
+        }
+    }
+
+    public function findOneByIdTransaccion($value): ?DetalleCompra
+        {
+           return $this->createQueryBuilder('d')
+                ->andWhere('d.IdTransaccion = :val')
+                ->setParameter('val', $value)
+                ->getQuery()
+                ->getOneOrNullResult()
+           ;
+       }
+
 }

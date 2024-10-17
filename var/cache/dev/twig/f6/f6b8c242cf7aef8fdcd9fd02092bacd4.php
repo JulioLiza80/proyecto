@@ -302,6 +302,6 @@ class __TwigTemplate_9236f22cdeedc2779465dcac11e1a5d9 extends Template
 
     <a href=\"{{ path('app_campanias_new') }}\">Create new</a>
 {% endblock %}
-", "campanias/index.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\campanias\\index.html.twig");
+", "campanias/index.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\campanias\\index.html.twig");
     }
 }

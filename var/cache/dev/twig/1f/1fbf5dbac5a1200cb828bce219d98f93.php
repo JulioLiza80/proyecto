@@ -309,6 +309,6 @@ class __TwigTemplate_f81e10e34367a68834c4349c9a132627 extends Template
 
     {{ include('user/_delete_form.html.twig') }}
 {% endblock %}
-", "user/show.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\user\\show.html.twig");
+", "user/show.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\user\\show.html.twig");
     }
 }

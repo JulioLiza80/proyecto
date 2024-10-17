@@ -42,6 +42,7 @@ class GafasCrudController extends AbstractCrudController
             NumberField::new('descuento'),
             NumberField::new('stock'),
             choiceField::new('destacado')->setChoices(['No destacado'=>0,'destacado'=>1]),
+          
             //imagen1
             ImageField::new('imageName', 'principal')
             ->setBasePath('images/gafas')
@@ -60,6 +61,8 @@ class GafasCrudController extends AbstractCrudController
             ->setUploadDir('public/images/gafas')
             ->setUploadedFileNamePattern('[randomhash].[extension]')
             ->setRequired(false),
+            ChoiceField::new('categoria')->setChoices(['gafas'=>1,]),
+            
         ];
     }
     

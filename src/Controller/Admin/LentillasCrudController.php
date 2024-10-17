@@ -42,6 +42,8 @@ class LentillasCrudController extends AbstractCrudController
             ->setUploadDir('public/images/lentillas')
             ->setUploadedFileNamePattern('[randomhash].[extension]')
             ->setRequired(false),
+            ChoiceField::new('categoria')->setChoices(['Lentillas Y Productos'=>2,]),
+
             
         ];
     }

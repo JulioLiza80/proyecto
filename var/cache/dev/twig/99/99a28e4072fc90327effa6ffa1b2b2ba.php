@@ -247,6 +247,6 @@ class __TwigTemplate_88c9a4e1850de570004631a7e21ed284 extends Template
 
     {{ include('campanias/_delete_form.html.twig') }}
 {% endblock %}
-", "campanias/show.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\campanias\\show.html.twig");
+", "campanias/show.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\campanias\\show.html.twig");
     }
 }

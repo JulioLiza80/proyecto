@@ -185,6 +185,6 @@ class __TwigTemplate_568ac36cf3d38b641e904216a34ed304 extends Template
         <button class=\"btn btn-primary\">Send password reset email</button>
     {{ form_end(requestForm) }}
 {% endblock %}
-", "reset_password/request.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\reset_password\\request.html.twig");
+", "reset_password/request.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\reset_password\\request.html.twig");
     }
 }

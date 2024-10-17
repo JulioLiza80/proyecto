@@ -94,6 +94,6 @@ class __TwigTemplate_c406557cf0142daed7e8c5c1bf98b34e extends Template
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ detalle_pedido.id) }}\">
     <button class=\"btn\">Delete</button>
 </form>
-", "detalle_pedido/_delete_form.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\detalle_pedido\\_delete_form.html.twig");
+", "detalle_pedido/_delete_form.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\detalle_pedido\\_delete_form.html.twig");
     }
 }

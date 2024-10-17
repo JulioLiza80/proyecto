@@ -314,6 +314,6 @@ class __TwigTemplate_e85b4398405e718d48916f842bdf8ad2 extends Template
 
     <a href=\"{{ path('app_lentillas_new') }}\">Create new</a>
 {% endblock %}
-", "lentillas/index.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\lentillas\\index.html.twig");
+", "lentillas/index.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\lentillas\\index.html.twig");
     }
 }

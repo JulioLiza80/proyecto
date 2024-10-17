@@ -99,6 +99,6 @@ class __TwigTemplate_4578b13b9744bf1c1ecfb80f012ce3f1 extends Template
     {{ form_widget(form) }}
     <button class=\"btn\">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
-", "detalle_compra/_form.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\detalle_compra\\_form.html.twig");
+", "detalle_compra/_form.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\detalle_compra\\_form.html.twig");
     }
 }

@@ -324,6 +324,6 @@ class __TwigTemplate_4995318066494cf6c75d7494561a4557 extends Template
   </div>
 </div>
 
-{%endblock%}", "comun/header.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\comun\\header.html.twig");
+{%endblock%}", "comun/header.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\comun\\header.html.twig");
     }
 }

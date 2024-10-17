@@ -156,6 +156,6 @@ class __TwigTemplate_777a6a51d364c7edc91c2ef7179f78f8 extends Template
 
     {{ include('lentillas/_delete_form.html.twig') }}
 {% endblock %}
-", "lentillas/edit.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\lentillas\\edit.html.twig");
+", "lentillas/edit.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\lentillas\\edit.html.twig");
     }
 }

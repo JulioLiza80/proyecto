@@ -285,6 +285,6 @@ class __TwigTemplate_a4c6b9f0bef258a4eca1e1e42e8c08ab extends Template
         {%- endif -%}
     </div>
 {%- endblock -%}
-", "@VichUploader/Form/fields.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\vich\\uploader-bundle\\templates\\Form\\fields.html.twig");
+", "@VichUploader/Form/fields.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\vich\\uploader-bundle\\templates\\Form\\fields.html.twig");
     }
 }

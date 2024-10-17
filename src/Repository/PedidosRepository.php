@@ -40,4 +40,35 @@ class PedidosRepository extends ServiceEntityRepository
     //            ->getOneOrNullResult()
     //        ;
     //    }
+
+    //Añadido
+    public function save(Pedidos $entity, bool $flush = false): void
+    {
+        $this->getEntityManager()->persist($entity);
+
+        if ($flush) {
+            $this->getEntityManager()->flush();
+        }
+    }
+
+    public function remove(Pedidos $entity, bool $flush = false): void
+    {
+        $this->getEntityManager()->remove($entity);
+
+        if ($flush) {
+            $this->getEntityManager()->flush();
+        }
+    }
+
+    
+    public function findOneByIdTransaccion($value): ?Pedidos
+    {
+       return $this->createQueryBuilder('d')
+            ->andWhere('d.IdTransaccion = :val')
+            ->setParameter('val', $value)
+            ->getQuery()
+            ->getOneOrNullResult()
+       ;
+   }
+
 }

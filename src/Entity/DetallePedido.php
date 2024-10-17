@@ -3,9 +3,6 @@
 namespace App\Entity;
 
 use App\Repository\DetallePedidoRepository;
-use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
-use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: DetallePedidoRepository::class)]
@@ -16,116 +13,58 @@ class DetallePedido
     #[ORM\Column]
     private ?int $id = null;
 
-    /**
-     * @var Collection<int, Pedidos>
-     */
-    #[ORM\OneToMany(targetEntity: Pedidos::class, mappedBy: 'detallePedido')]
-    private Collection $idPedido;
+    #[ORM\Column]
+    private ?int $IdPedido = null;
 
-    /**
-     * @var Collection<int, Gafas>
-     */
-    #[ORM\ManyToMany(targetEntity: Gafas::class, inversedBy: 'detallePedidos')]
-    private Collection $idGafas;
+    #[ORM\Column]
+    private ?int $IdProducto = null;
 
-    /**
-     * @var Collection<int, Lentillas>
-     */
-    #[ORM\ManyToMany(targetEntity: Lentillas::class, inversedBy: 'detallePedidos')]
-    private Collection $idLentillas;
+    #[ORM\Column]
+    private ?int $categoriaProducto = null;
 
     #[ORM\Column]
     private ?int $cantidad = null;
 
-    #[ORM\Column(type: Types::DECIMAL, precision: 6, scale: 2)]
-    private ?string $precio = null;
-
-    public function __construct()
-    {
-        $this->idPedido = new ArrayCollection();
-        $this->idGafas = new ArrayCollection();
-        $this->idLentillas = new ArrayCollection();
-    }
+    #[ORM\Column]
+    private ?int $Precio = null;
 
     public function getId(): ?int
     {
         return $this->id;
     }
 
-    /**
-     * @return Collection<int, Pedidos>
-     */
-    public function getIdPedido(): Collection
+    public function getIdPedido(): ?int
     {
-        return $this->idPedido;
+        return $this->IdPedido;
     }
 
-    public function addIdPedido(Pedidos $idPedido): static
+    public function setIdPedido(int $IdPedido): static
     {
-        if (!$this->idPedido->contains($idPedido)) {
-            $this->idPedido->add($idPedido);
-            $idPedido->setDetallePedido($this);
-        }
+        $this->IdPedido = $IdPedido;
 
         return $this;
     }
 
-    public function removeIdPedido(Pedidos $idPedido): static
+    public function getIdProducto(): ?int
     {
-        if ($this->idPedido->removeElement($idPedido)) {
-            // set the owning side to null (unless already changed)
-            if ($idPedido->getDetallePedido() === $this) {
-                $idPedido->setDetallePedido(null);
-            }
-        }
+        return $this->IdProducto;
+    }
+
+    public function setIdProducto(int $IdProducto): static
+    {
+        $this->IdProducto = $IdProducto;
 
         return $this;
     }
 
-    /**
-     * @return Collection<int, Gafas>
-     */
-    public function getIdGafas(): Collection
+    public function getCategoriaProducto(): ?int
     {
-        return $this->idGafas;
+        return $this->categoriaProducto;
     }
 
-    public function addIdGafa(Gafas $idGafa): static
+    public function setCategoriaProducto(int $categoriaProducto): static
     {
-        if (!$this->idGafas->contains($idGafa)) {
-            $this->idGafas->add($idGafa);
-        }
-
-        return $this;
-    }
-
-    public function removeIdGafa(Gafas $idGafa): static
-    {
-        $this->idGafas->removeElement($idGafa);
-
-        return $this;
-    }
-
-    /**
-     * @return Collection<int, Lentillas>
-     */
-    public function getIdLentillas(): Collection
-    {
-        return $this->idLentillas;
-    }
-
-    public function addIdLentilla(Lentillas $idLentilla): static
-    {
-        if (!$this->idLentillas->contains($idLentilla)) {
-            $this->idLentillas->add($idLentilla);
-        }
-
-        return $this;
-    }
-
-    public function removeIdLentilla(Lentillas $idLentilla): static
-    {
-        $this->idLentillas->removeElement($idLentilla);
+        $this->categoriaProducto = $categoriaProducto;
 
         return $this;
     }
@@ -142,14 +81,14 @@ class DetallePedido
         return $this;
     }
 
-    public function getPrecio(): ?string
+    public function getPrecio(): ?int
     {
-        return $this->precio;
+        return $this->Precio;
     }
 
-    public function setPrecio(string $precio): static
+    public function setPrecio(int $Precio): static
     {
-        $this->precio = $precio;
+        $this->Precio = $Precio;
 
         return $this;
     }

@@ -149,6 +149,6 @@ class __TwigTemplate_14ffc9d3a861964aede0a94e5e084677 extends Template
 
     <a href=\"{{ path('app_lentillas_index') }}\">back to list</a>
 {% endblock %}
-", "lentillas/new.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\lentillas\\new.html.twig");
+", "lentillas/new.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\lentillas\\new.html.twig");
     }
 }

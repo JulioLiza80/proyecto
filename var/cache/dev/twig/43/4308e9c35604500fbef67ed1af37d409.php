@@ -189,6 +189,6 @@ class __TwigTemplate_5f222170903f755cdf0fb02422e5d539 extends Template
         </span>
     {% endfor %}
 {% endif %}
-", "@EasyAdmin/crud/field/country.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\country.html.twig");
+", "@EasyAdmin/crud/field/country.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\country.html.twig");
     }
 }

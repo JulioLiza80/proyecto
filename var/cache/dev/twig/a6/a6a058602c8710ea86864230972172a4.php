@@ -99,6 +99,6 @@ class __TwigTemplate_cd87d6e6b9d67273d1b371ff05204fea extends Template
     {{ form_widget(form) }}
     <button class=\"btn\">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
-", "lentillas/_form.html.twig", "C:\\Users\\stark\\Desktop\\optica\\kraken\\proyecto\\templates\\lentillas\\_form.html.twig");
+", "lentillas/_form.html.twig", "C:\\Users\\stark\\Desktop\\proyecto\\templates\\lentillas\\_form.html.twig");
     }
 }

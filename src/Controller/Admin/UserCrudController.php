@@ -13,6 +13,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Field\UrlField;
 use EasyCorp\Bundle\EasyAdminBundle\Form\Type\FileUploadType;
 use Vich\UploaderBundle\Form\Type\VichImageType;
 use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
+use EasyCorp\Bundle\EasyAdminBundle\Field\IntegerField;
 
 class UserCrudController extends AbstractCrudController
 {
@@ -35,6 +36,7 @@ class UserCrudController extends AbstractCrudController
             TextField::new('apellido2'),
             TextField::new('direccion'),
             TextField::new('ciudad'),
+            IntegerField::new('cp'),
             //descarga
            
           

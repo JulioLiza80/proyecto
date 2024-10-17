@@ -52,11 +52,7 @@ class Lentillas
     #[ORM\Column(nullable: true)]
     private ?int $destacado = null;
 
-    /**
-     * @var Collection<int, DetallePedido>
-     */
-    #[ORM\ManyToMany(targetEntity: DetallePedido::class, mappedBy: 'idLentillas')]
-    private Collection $detallePedidos;
+   
 
     //imagen1
     #[Vich\UploadableField(mapping: 'lentillas', fileNameProperty: 'imageName', size: 'imageSize')]
@@ -70,14 +66,14 @@ class Lentillas
 
     #[ORM\Column(nullable: true)]
     private ?\DateTimeImmutable $updatedAt = null;
+
+    #[ORM\Column]
+    private ?int $categoria = null;
     
     
     //METODOS....
 
-    public function __construct()
-    {
-        $this->detallePedidos = new ArrayCollection();
-    }
+
 
     public function getId(): ?int
     {
@@ -216,32 +212,7 @@ class Lentillas
         return $this;
     }
 
-    /**
-     * @return Collection<int, DetallePedido>
-     */
-    public function getDetallePedidos(): Collection
-    {
-        return $this->detallePedidos;
-    }
 
-    public function addDetallePedido(DetallePedido $detallePedido): static
-    {
-        if (!$this->detallePedidos->contains($detallePedido)) {
-            $this->detallePedidos->add($detallePedido);
-            $detallePedido->addIdLentilla($this);
-        }
-
-        return $this;
-    }
-
-    public function removeDetallePedido(DetallePedido $detallePedido): static
-    {
-        if ($this->detallePedidos->removeElement($detallePedido)) {
-            $detallePedido->removeIdLentilla($this);
-        }
-
-        return $this;
-    }
 
      //añadir imagenes
     //imagen1
@@ -279,5 +250,17 @@ class Lentillas
     public function getImageSize(): ?int
     {
         return $this->imageSize;
+    }
+
+    public function getCategoria(): ?int
+    {
+        return $this->categoria;
+    }
+
+    public function setCategoria(int $categoria): static
+    {
+        $this->categoria = $categoria;
+
+        return $this;
     }
 }
